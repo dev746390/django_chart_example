@@ -1,33 +1,10 @@
-# [Django Simple Charts](https://django-simple-charts.appseed.us/) - LIVE Demo
-
-> Playground starter to display simple charts in Django using Morris JS: 
-
-- [Charts from JSON](https://django-simple-charts.appseed.us/charts-file) - using this [sample](https://github.com/app-generator/django-simple-charts/blob/master/sample_data/chart_morris.json)
-- [Charts from Table](https://django-simple-charts.appseed.us/charts-input) - simple STATS table
-- [Charts from DATA chunk](https://django-simple-charts.appseed.us/charts-input) - using this [sample](https://github.com/app-generator/django-simple-charts/blob/master/sample_data/sales_data.csv) file
-- UI Kit: **[Datta Able](https://appseed.us/admin-dashboards/django-dashboard-dattaable)** (Lite Version) provided by **[CodedThemes](https://appseed.us/agency/codedthemes)**
-- Deployment scripts: Docker, Gunicorn / Nginx
-- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) provided by **AppSeed**
-
-<br />
-
-> Links
-
-- [LIVE Demo](https://django-simple-charts.appseed.us/) - project in action
-- [Generic Codebase](https://github.com/app-generator/boilerplate-code-django-dashboard)
-- [Morris Charts](https://morrisjs.github.io/morris.js/) - Getting started guide
-
-<br />
-
-![Boierplate Code Django Dashboard - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-simple-charts/master/media/display.png)
-
-<br />
+Django Simple Charts
 
 ## How to use it
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/django-simple-charts.git
+$ git clone https://github.com/dev746390/djanog_chart_example.git
 $ cd django-simple-charts
 $
 $ # Virtualenv modules installation (Unix based systems)
@@ -60,17 +37,6 @@ $ # Access the web app in browser: http://127.0.0.1:8000/
 > Note: To use the app, please access the registration page and create a admin user using the `createsuperuser` command
 
 <br />
-
-## Load Data For Chart
-
-In Django admin, you can import data for the **Sales** section. 
-To do this just click on ```IMPORT``` button then select your csv, xls or etc file and submit it.
-
-![Import Data](https://raw.githubusercontent.com/app-generator/django-simple-charts/master/media/admin_import.png)
-
-> Sample **[Data](https://github.com/app-generator/django-simple-charts/blob/master/sample_data/sales_data.csv)**
-
-<br>
 
 ## Code-base structure
 
@@ -141,7 +107,7 @@ The application can be easily executed in a docker container. The steps:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/django-simple-charts.git
+$ git clone https://github.com/dev746390/djanog_chart_example.git
 $ cd django-simple-charts
 ```
 
@@ -175,14 +141,3 @@ Serving on http://localhost:8001
 Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 <br />
-
-## Credits & Links
-
-- [Django](https://www.djangoproject.com/) - The official website
-- [Boilerplate Code](https://appseed.us/boilerplate-code) - Index provided by **AppSeed**
-- [Boilerplate Code](https://github.com/app-generator/boilerplate-code) - Index published on Github
-
-<br />
-
----
-[Django Simple Charts](https://django-simple-charts.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
